@@ -14,6 +14,8 @@
 		7CCEEA6322E50B52002BF1E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCEEA6122E50B52002BF1E3 /* LaunchScreen.storyboard */; };
 		7CCEEA6E22E50B52002BF1E3 /* ImageClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEEA6D22E50B52002BF1E3 /* ImageClassifierTests.swift */; };
 		7CCEEA7922E50B52002BF1E3 /* ImageClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEEA7822E50B52002BF1E3 /* ImageClassifierUITests.swift */; };
+		7CCEEA8722E516C5002BF1E3 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEEA8622E516C5002BF1E3 /* SqueezeNet.mlmodel */; };
+		7CCEEA8922E5265B002BF1E3 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEEA8822E5265B002BF1E3 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7CCEEA7422E50B52002BF1E3 /* ImageClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCEEA7822E50B52002BF1E3 /* ImageClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifierUITests.swift; sourceTree = "<group>"; };
 		7CCEEA7A22E50B52002BF1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCEEA8622E516C5002BF1E3 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		7CCEEA8822E5265B002BF1E3 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		7CCEEA5722E50B4F002BF1E3 /* ImageClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				7CCEEA8622E516C5002BF1E3 /* SqueezeNet.mlmodel */,
 				7CCEEA5822E50B4F002BF1E3 /* AppDelegate.swift */,
 				7CCEEA5A22E50B4F002BF1E3 /* ViewController.swift */,
+				7CCEEA8822E5265B002BF1E3 /* Resnet50.mlmodel */,
 				7CCEEA5C22E50B4F002BF1E3 /* Main.storyboard */,
 				7CCEEA5F22E50B52002BF1E3 /* Assets.xcassets */,
 				7CCEEA6122E50B52002BF1E3 /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CCEEA5B22E50B4F002BF1E3 /* ViewController.swift in Sources */,
+				7CCEEA8722E516C5002BF1E3 /* SqueezeNet.mlmodel in Sources */,
+				7CCEEA8922E5265B002BF1E3 /* Resnet50.mlmodel in Sources */,
 				7CCEEA5922E50B4F002BF1E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHN57S97S6;
 				INFOPLIST_FILE = ImageClassifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHN57S97S6;
 				INFOPLIST_FILE = ImageClassifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
